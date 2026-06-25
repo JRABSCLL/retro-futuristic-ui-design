@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import './LCDGadget.css'
 
 interface MenuOption {
   id: string
