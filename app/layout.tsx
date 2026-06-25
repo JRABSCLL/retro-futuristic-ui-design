@@ -4,6 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Retro Gadget Gallery',
   description: 'Retro-futuristic UI design — Cassette Futurism gadget gallery',
+  keywords: ['retro', 'futuristic', 'CRT', 'terminal', 'cassette futurism'],
 }
 
 export default function RootLayout({
