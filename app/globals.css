@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&family=Orbitron:wght@400;700&display=swap');
-
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +8,7 @@ html, body {
   height: 100%;
   background: #1a1a1a;
   color: #ff6a00;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: var(--font-share-tech-mono), monospace;
   overflow: hidden;
 }
 
@@ -52,7 +50,7 @@ html, body {
   bottom: 12px;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'Share Tech Mono', monospace;
+  font-family: var(--font-share-tech-mono), monospace;
   font-size: 10px;
   color: #666;
   letter-spacing: 3px;
@@ -318,7 +316,7 @@ html, body {
 
 .amber-text {
   color: #ff6a00;
-  font-family: 'VT323', monospace;
+  font-family: var(--font-vt323), monospace;
   text-shadow: 
     0 0 5px rgba(255, 106, 0, 0.8),
     0 0 10px rgba(255, 106, 0, 0.5),
@@ -600,7 +598,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: var(--font-share-tech-mono), monospace;
 }
 
 .lcd-device {
@@ -636,7 +634,7 @@ html, body {
 }
 
 .property-label {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: var(--font-share-tech-mono), monospace;
   font-size: 9px;
   color: #666;
   line-height: 1.4;
@@ -743,7 +741,7 @@ html, body {
 
 .lcd-text {
   color: #1a2a10;
-  font-family: 'VT323', monospace;
+  font-family: var(--font-vt323), monospace;
   text-shadow: 
     0 0 2px rgba(26, 42, 16, 0.5),
     1px 1px 0 rgba(74, 90, 58, 0.3);
@@ -768,7 +766,7 @@ html, body {
 }
 
 .lcd-logo-text {
-  font-family: 'Orbitron', sans-serif;
+  font-family: var(--font-orbitron), sans-serif;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -798,7 +796,7 @@ html, body {
 .lcd-logo-icon::after {
   content: 'C';
   position: absolute;
-  font-family: 'Orbitron', sans-serif;
+  font-family: var(--font-orbitron), sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #1a2a10;
@@ -822,7 +820,7 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: var(--font-share-tech-mono), monospace;
   margin-top: 5px;
 }
 
@@ -1113,7 +1111,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Orbitron', sans-serif;
+  font-family: var(--font-orbitron), sans-serif;
   font-size: 12px;
   font-weight: 700;
   color: #666;
@@ -1121,7 +1119,7 @@ html, body {
 }
 
 .company-name {
-  font-family: 'Orbitron', sans-serif;
+  font-family: var(--font-orbitron), sans-serif;
   font-size: 11px;
   font-weight: 700;
   color: #666;
